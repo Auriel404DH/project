@@ -8,7 +8,7 @@ interface Param {
 
 interface ParamValue {
   paramId: number;
-  value: string;
+  value: string | string[];
 }
 interface Model {
   paramValues: ParamValue[];
